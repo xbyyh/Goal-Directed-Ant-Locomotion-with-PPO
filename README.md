@@ -46,6 +46,7 @@ Custom Ant environment with
 - Direction-aware reward
 - Termination for stuck  out-of-bound  fall
 
-## Training
+## Training pipeline
 ```bash
-python train_ppo.py
+python ant_stage1_train.py   ----   python ant_stage2_heritage_train.py  
+ 
