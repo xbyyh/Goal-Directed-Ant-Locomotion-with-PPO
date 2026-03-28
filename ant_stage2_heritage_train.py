@@ -18,7 +18,7 @@ def make_env():
 
 env = make_vec_env(make_env, n_envs=16)
 
-model_path = "93%"
+model_path = "ant_stage1"
 model = PPO.load(model_path, env=env)
 model.tensorboard_log = "./tb_logs/"
 
