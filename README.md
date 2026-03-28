@@ -36,7 +36,7 @@ The project focuses on reward design to achieve smooth and directed motion.
 
 ## Results
 - Stable locomotion learned in stage 1
-- ~80% success rate in reaching target
+- ~90% success rate in reaching target
 - Reduced oscillation and drifting
 - More direct trajectories after reward tuning
 
