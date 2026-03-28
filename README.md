@@ -7,6 +7,9 @@ Reinforcement learning for goal-directed locomotion using MuJoCo Ant with curric
 <p align="center">
   <img src="demo1.gif" width="700">
 </p>
+<p align="center">
+  <img src="demo2.gif" width="700">
+</p>
 
 ## Overview
 We train a PPO agent in a custom Ant environment to first learn stable locomotion and then navigate toward a target.  
