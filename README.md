@@ -19,7 +19,7 @@ The project focuses on reward design to achieve smooth and directed motion.
 - Algorithm PPO
 - Two-stage training (locomotion → navigation)
 - Custom reward shaping for direction and stability
-- Success rate ~80%
+- Success rate ~90%
 
 ## Method
 
