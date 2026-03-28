@@ -44,18 +44,16 @@ The project focuses on reward design to achieve smooth and directed motion.
 Custom Ant environment with
 - Target-based navigation
 - Direction-aware reward
-- Termination for stuck  out-of-bound  fall
+- Termination for stuck out-of-bound fall
 
 ## Training pipeline
-```bash
-python ant_stage1_train.py   ----   python ant_stage2_heritage_train.py
+- `python ant_stage1_train.py`
+- `python ant_stage2_heritage_train.py`
 
 ## Evaluation
-```bash
-- locomotion_test(stage1) --ppo_ant_stage1.zip
-- python accuracy_test.py(stage2) --93%.zip
-- python plot_reward_log.py
+- `locomotion_test(stage1) --ppo_ant_stage1.zip`
+- `python accuracy_test.py(stage2) --93%.zip`
+- `python plot_reward_log.py`
 
 ## Acknowledgments
-```bash
-Built with Stable-Baselines3 and MuJoCo.
+- Built with Stable-Baselines3 and MuJoCo.
