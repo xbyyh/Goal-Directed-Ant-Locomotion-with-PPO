@@ -46,6 +46,9 @@ Custom Ant environment with
 - Direction-aware reward
 - Termination for stuck out-of-bound fall
 
+## Installation
+- pip install gymnasium mujoco stable-baselines3
+
 ## Training pipeline
 - `python ant_stage1_train.py`
 - `python ant_stage2_heritage_train.py`
